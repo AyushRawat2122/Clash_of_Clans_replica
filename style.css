@@ -562,3 +562,49 @@ hr
 {
     scale: 1.2;
 }
+
+
+@media screen and (max-width: 767px) {
+
+    header
+    {
+        height:100vh;
+        background-image: url(/Assets/img/wp4874273-clash-of-clans-mobile-wallpapers.jpg);
+        background-position: center;
+        background-size: repeat;
+    }
+    .section1
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .box1 , .box2
+    {
+        width: 100vw;
+        overflow: hidden;
+    }
+    .box1 img 
+    {
+     padding-left:100px ;
+    }
+    .box2 
+    {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    }
+    .box2 h1
+    {
+     padding-left: 30px;
+    }
+    .mobile-custom
+    {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    }
+}
